@@ -3,4 +3,14 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="add_string">Add Product</string>
+    <string name="find_string">Find Product</string>
+    <string name="delete_string">Delete Product</string>
+    <string name="listall_string">All Products</string>
+    <string name="seeusers_string">See Users</string>
+    <string name="title_activity_users">UsersActivity</string>
+    <string name="add_user_string">Add User</string>
+    <string name="find_user_string">Find User</string>
+    <string name="delete_user_string">Delete User</string>
+    <string name="listall_users_string">All Users</string>
 </resources>

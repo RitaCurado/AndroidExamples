@@ -4,28 +4,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <LinearLayout
+    <EditText
+        android:id="@+id/userName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:orientation="horizontal">
-
-        <EditText
-            android:id="@+id/productName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="20dp"
-            android:hint="Product name"/>
-
-        <EditText
-            android:id="@+id/productQuantity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:hint="Product quantity"/>
-
-    </LinearLayout>
+        android:hint="User name"/>
 
 
 
@@ -40,17 +24,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="5dp"
-            android:text="@string/add_string"
-            android:id="@+id/button_new"
-            android:onClick="newProduct" />
+            android:text="@string/add_user_string"
+            android:id="@+id/button_new_user"
+            android:onClick="newUser" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="@string/find_string"
-            android:id="@+id/button_lookup"
-            android:onClick="lookupProduct" />
+            android:text="@string/find_user_string"
+            android:id="@+id/button_lookup_user"
+            android:onClick="lookupUser" />
 
     </LinearLayout>
 
@@ -65,33 +49,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="6dp"
-            android:text="@string/delete_string"
-            android:id="@+id/button_remove"
-            android:onClick="removeProduct" />
+            android:text="@string/delete_user_string"
+            android:id="@+id/button_remove_user"
+            android:onClick="removeUser" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="6dp"
-            android:text="@string/listall_string"
-            android:id="@+id/button_listall"
-            android:onClick="listProducts" />
+            android:text="@string/listall_users_string"
+            android:id="@+id/button_listall_users"
+            android:onClick="listUsers" />
 
     </LinearLayout>
 
     <TextView
-        android:id="@+id/productID"
+        android:id="@+id/userID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Product info: "/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:text="@string/seeusers_string"
-        android:onClick="callUsers"/>
+        android:text="User info: "/>
 
 
 </LinearLayout>
